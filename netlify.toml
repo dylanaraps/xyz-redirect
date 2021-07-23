@@ -1,0 +1,15 @@
+[build]
+command = "true"
+publish = "."
+
+[[redirects]]
+from = "http://kisslinux.xyz/*"
+to = "https://kisslinux.org/:splat"
+status = 301
+force = true
+
+[[redirects]]
+from = "https://kisslinux.xyz/*"
+to = "https://kisslinux.org/:splat"
+status = 301
+force = true
